@@ -1,0 +1,37 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "Trying out a server-less architecture.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diakonos/serverless_test.git"
+  },
+  "author": "Justin Ling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diakonos/serverless_test/issues"
+  },
+  "homepage": "https://github.com/diakonos/serverless_test#readme",
+  "dependencies": {
+    "apollo-client-preset": "^1.0.4",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.1",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
