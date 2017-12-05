@@ -4,7 +4,7 @@ import { HttpLink } from 'apollo-link-http';
 import React from 'react';
 import { ApolloProvider } from 'react-apollo';
 import ReactDOM from 'react-dom';
-import Home from './pages/home';
+import AppRoutes from './router';
 
 const client = new ApolloClient({
   link: new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjasdtfkz1qoh0188gedz6vf5' }),
@@ -13,7 +13,7 @@ const client = new ApolloClient({
 
 ReactDOM.render(
   <ApolloProvider client={client}>
-    <Home />
+    <AppRoutes />
   </ApolloProvider>,
   document.getElementById('app')
 );
